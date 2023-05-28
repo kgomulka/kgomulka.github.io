@@ -1,0 +1,28 @@
+/*
+SELEKTOR {
+    WŁAŚCIWOŚĆ: WARTOŚĆ
+}
+*/
+
+body {
+    background: rgba(117, 147, 180, 0.726);
+}
+nav {
+    border: 2px dashed rgb(236, 129, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.navul {
+  /*  border: 2px dashed blue;*/
+    list-style: none;
+    padding:10px 20px 40px 80px;
+    margin:0;
+    display:flex;
+}
+
+.navulli{
+    /*border: 5px solid rgb(155, 25, 167);*/
+    margin-left: 20px;
+}
