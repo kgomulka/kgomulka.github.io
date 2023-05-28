@@ -18,20 +18,29 @@
 <body>
     <nav>
        <a href="./">kgomulkalogo</a>  
+       <input type="checkbox" id="toggler">
+       <label for="toggler">
+        <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+          </svg>
+       </label>
+
 <ul class="navul">
-    <li><a href="#">O mnie</a></li>
-    <li><a href="#">Projekty</a></li>
-    <li><a href="#">Kontakt</a></li>
+    <li><a href="#aboutme">O mnie</a></li>
+    <li><a href="#projects">Projekty</a></li>
+    <li><a href="#contact">Kontakt</a></li>
 </ul>
     </nav>
 
-<header class="bodyheader">
+<header id="start" class="bodyheader">
 <h1>SOFTWARE DEVELOPER</h1>
 <p>Hi everyone! Welcome on my website! I'm Software Developer, if you need proffessional support in programming - get back to me!</p>
 <img src="./klaudia - developer.jpg" alt="Zdjęcie - Klaudia">
 </header>
     
-<main>
+<main id="projects">
     <header>
         <h2>My projects</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum cupiditate provident quaerat molestias animi natus unde consectetur. Beatae quaerat itaque quas accusamus officiis blanditiis magnam est, laboriosam eius cupiditate!</p>
@@ -64,7 +73,7 @@
     </section>
 </main>
 
-<article>
+<article id="contact">
     <header>
     <h2>Contact me:</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quas quis dolorum nisi ducimus, cupiditate neque, porro sint fugiat natus numquam a, aliquam explicabo maxime libero! Obcaecati vero quidem at!</p>
