@@ -52,3 +52,12 @@ main, article{
     margin: auto;
     padding:5vw;
 }
+footer{
+    background-color: rgb(255, 255, 255);
+padding:2.5vw;
+color: rgb(104, 231, 188);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
