@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "nazwa samochodu": "Mercedes",
+        "model": "E220",
+        "paliwo": "benzyna",
+        "rok_produkcji": 1997,
+        "zdjecie": "https://szkolenieazure.blob.core.windows.net/samochody/1200px-2016_Mercedes-Benz_E220d_AMG_Line_Premium+_2.0_Front.jpg"
+    },
+    {
+        "id": "2",
+        "nazwa samochodu": "BMW",
+        "model": "F10",
+        "paliwo": "benzyna",
+        "rok_produkcji": 2009,
+        "zdjecie": "https://szkolenieazure.blob.core.windows.net/samochody/bmw.jpg"
+    },
+    {
+        "id": "3",
+        "nazwa samochodu": "Audi",
+        "model": "A6",
+        "paliwo": "benzyna",
+        "rok_produkcji": 2016,
+        "zdjecie": "https://szkolenieazure.blob.core.windows.net/samochody/Audi_A6.jpg"
+    }
+]
